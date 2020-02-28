@@ -1,0 +1,9 @@
+To run server:
+./server.sh req_code
+e.g. ./server.sh 21
+
+To run client:
+./client.sh server_address n_port req_code "message"
+e.g. ./client.sh localhost 45705 21 "Hello!"
+
+The program is written in python, so there is no Makefile.
